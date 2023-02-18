@@ -1,0 +1,28 @@
+@include media-breakpoint-up(xs) {
+  .navigation {
+    border-bottom: 1px solid #d6d6d6;
+    background-color: $primary-white;
+    display: flex;
+    align-items: center;
+    min-height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    img {
+      max-width: 120px;
+    }
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 100px;
+    position: fixed;
+    bottom: 40px;
+    width: 100%;
+    img {
+      max-width: 80px;
+      float: right;
+    }
+  }
+}
